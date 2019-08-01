@@ -1,1 +1,8 @@
-theme: jekyll-theme-minimal
+theme: just-the-docs
+# color_scheme: "dark"
+
+# Site Settings
+title: Ronald de Haan
+email: me@ronalddehaan.eu
+description: >
+  A guide to something.
