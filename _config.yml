@@ -1,8 +1,8 @@
 theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
 # color_scheme: "dark"
 
 # Site Settings
 title: Ronald de Haan
 email: me@ronalddehaan.eu
-description: >
-  A guide to something.
+description: A guide to something.
