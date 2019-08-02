@@ -16,7 +16,7 @@ my ongoing research projects, and my ideas for future research projects.
 
 If you are interested in collaborating,
 or if you are a student (at the UvA)
-and are interested in doing a research project under Ronald's supervision,
+and are interested in doing a research project under my supervision,
 please feel free to [get in touch](mailto:me@ronalddehaan.eu).
 
 ---

@@ -36,16 +36,9 @@ Text needed
 
 - For more details, see [*Thesis topics*](prospective/thesis-ideas.html).
 
-## Ideas for dissertation topics
-
-Text needed
-{: .label .label-red }
-
-- For more details, see [*Dissertation topics*](prospective/dissertation-ideas.html).
-
 ## Blue sky ideas
 
 Text needed
 {: .label .label-red }
 
-- For more details, see [*Blue sky ideas*](prospective/blue-sky.html).
+- For more details, see [*Blue sky and ambitious ideas*](prospective/blue-sky.html).
