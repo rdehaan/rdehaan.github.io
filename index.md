@@ -1,43 +1,51 @@
 ---
-title: index
-has_children: true
+title: Overview
+has_children: false
 nav_order: 1
+has_toc: false
 ---
 
-## Welcome to GitHub Pages
+# Ronald's research
+{: .no_toc }
 
-You can use the [editor on GitHub](https://github.com/rdehaan/rdehaan.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I am [Ronald de Haan](https://staff.science.uva.nl/r.dehaan/).
+I am a researcher at the [Institute for Logic, Language and Computation (ILLC)](http://www.illc.uva.nl/)
+of the [University of Amsterdam (UvA)](https://www.uva.nl/en).
+This page describes my research interests,
+my ongoing research projects, and my ideas for future research projects.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+If you are interested in collaborating,
+or if you are a student (at the UvA)
+and are interested in doing a research project under Ronald's supervision,
+please feel free to [get in touch](mailto:me@ronalddehaan.eu).
 
-### Markdown
+---
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### Contents:
+{: .no_toc }
 
-```markdown
-Syntax highlighted code block
+1. TOC
+{: toc }
 
-# Header 1
-## Header 2
-### Header 3
+---
 
-- Bulleted
-- List
+## Research interests
 
-1. Numbered
-2. List
+Text needed
+{: .label .label-red }
 
-**Bold** and _Italic_ and `Code` text
+- For more details, see [*Topics*](topics.html).
 
-[Link](url) and ![Image](src)
-```
+## Ongoing research projects
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Text needed
+{: .label .label-red }
 
-### Jekyll Themes
+- For more details, see [*Ongoing projects*](current.html).
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rdehaan/rdehaan.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Prospective research projects
 
-### Support or Contact
+Text needed
+{: .label .label-red }
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- For more details, see [*Prospective projects*](prospective.html).
