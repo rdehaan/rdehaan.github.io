@@ -1,11 +1,11 @@
 ---
-title: Complexity of Judgment Aggregation
+title: Complexity of judgment aggregation
 parent: Ongoing projects
 has_children: false
 nav_order: 1
 ---
 
-# Computational complexity and other computational aspects of Judgment Aggregation
+# Computational complexity and other computational aspects of judgment aggregation
 {: .no_toc }
 
 Text needed
@@ -21,12 +21,12 @@ Text needed
 
 ---
 
-## Background: Judgment Aggregation
+## Background: judgment aggregation
 
 Text needed
 {: .label .label-red }
 
-For more details on Judgment Aggregation,
+For more details on judgment aggregation,
 we refer to the literature (e.g., [Endriss, 2016]).
 
 ## Research findings

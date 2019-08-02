@@ -22,16 +22,16 @@ Text needed
 
 ---
 
-## Complexity of Judgment Aggregation
+## Complexity of judgment aggregation
 
 Text needed
 {: .label .label-red }
 
-- For more details, see [*Complexity of Judgment Aggregation*](current/complexity-ja.html).
+- For more details, see [*Complexity of judgment aggregation*](complexity-ja.html).
 
 ## Parameterized complexity beyond NP
 
 Text needed
 {: .label .label-red }
 
-- For more details, see [*Parameterized complexity beyond NP*](current/pct-beyond-np.html).
+- For more details, see [*Parameterized complexity beyond NP*](pct-beyond-np.html).
