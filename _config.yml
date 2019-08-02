@@ -5,4 +5,11 @@ remote_theme: pmarsceill/just-the-docs
 # Site Settings
 title: Ronald de Haan
 email: me@ronalddehaan.eu
-description: A guide to something.
+
+# Enable/disable search
+search-enabled: true
+
+# Aux links for the upper right navigation
+aux_links:
+    "Main webpage":
+      - "http://www.ronalddehaan.eu/"
