@@ -7,9 +7,9 @@ title: Ronald de Haan
 email: me@ronalddehaan.eu
 
 # Enable/disable search
-search-enabled: true
+search-enabled: false
 
 # Aux links for the upper right navigation
 aux_links:
-    "Main webpage":
-      - "http://www.ronalddehaan.eu/"
+    "Ronald's webpage @ UvA":
+      - "//staff.science.uva.nl/r.dehaan/"
