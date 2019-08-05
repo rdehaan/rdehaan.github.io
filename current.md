@@ -17,6 +17,7 @@ that I have been conducting over the last few years&mdash;as well
 as a description of some of the main research outcomes obtained
 in these projects.
 
+<!--
 ---
 
 #### Contents:
@@ -24,6 +25,7 @@ in these projects.
 
 1. TOC
 {: toc }
+-->
 
 ---
 

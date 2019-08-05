@@ -15,6 +15,7 @@ Under construction
 This section contains ideas and suggestions for future research
 that seem interesting to me.
 
+<!--
 ---
 
 #### Contents:
@@ -22,6 +23,7 @@ that seem interesting to me.
 
 1. TOC
 {: toc }
+-->
 
 ---
 

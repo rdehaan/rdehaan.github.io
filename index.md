@@ -14,6 +14,11 @@ of the [University of Amsterdam (UvA)](https://www.uva.nl/en).
 This page describes my research interests,
 my ongoing research projects, and my ideas for future research projects.
 
+For more information on my teaching and other professional activities,
+my publications, etc,
+please refer to my
+[webpage at the University of Amsterdam](https://staff.science.uva.nl/r.dehaan/).
+
 If you are interested in collaborating,
 or if you are a student (at the UvA)
 and are interested in doing a research project under my supervision,
@@ -21,6 +26,7 @@ please feel free to
 send me an [email](mailto:me@ronalddehaan.eu)
 ([my PGP public key](https://staff.science.uva.nl/r.dehaan/files/ronald-AC7F3AB0.asc)).
 
+<!--
 ---
 
 #### Contents:
@@ -28,6 +34,7 @@ send me an [email](mailto:me@ronalddehaan.eu)
 
 1. TOC
 {: toc }
+-->
 
 ---
 
@@ -36,7 +43,7 @@ send me an [email](mailto:me@ronalddehaan.eu)
 Under construction
 {: .label .label-red }
 
-- For more details, see [*Topics*](topics.html).
+- For more details, see [*Research interests*](research-interests.html).
 
 ## Ongoing research projects
 

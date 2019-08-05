@@ -1,11 +1,11 @@
 ---
-title: Topics
+title: Research interests
 has_children: false
 nav_order: 2
 has_toc: true
 ---
 
-# Research topics
+# Research interests
 {: .no_toc }
 
 I'm generally interested in the following research topics.
