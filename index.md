@@ -17,7 +17,9 @@ my ongoing research projects, and my ideas for future research projects.
 If you are interested in collaborating,
 or if you are a student (at the UvA)
 and are interested in doing a research project under my supervision,
-please feel free to [get in touch](mailto:me@ronalddehaan.eu).
+please feel free to
+send me an [email](mailto:me@ronalddehaan.eu)
+([my PGP public key](https://staff.science.uva.nl/r.dehaan/files/ronald-AC7F3AB0.asc)).
 
 ---
 
