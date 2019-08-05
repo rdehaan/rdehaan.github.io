@@ -8,7 +8,7 @@ nav_order: 1
 # Computational complexity and other computational aspects of judgment aggregation
 {: .no_toc }
 
-Text needed
+Under construction
 {: .label .label-red }
 
 ---
@@ -23,7 +23,7 @@ Text needed
 
 ## Background: judgment aggregation
 
-Text needed
+Under construction
 {: .label .label-red }
 
 For more details on judgment aggregation,
@@ -31,7 +31,7 @@ we refer to the literature (e.g., [Endriss, 2016]).
 
 ## Research findings
 
-Text needed
+Under construction
 {: .label .label-red }
 
 ### Computational complexity of outcome determination
@@ -45,7 +45,7 @@ variants of this definition [Endriss, De Haan, Lang, Slavkovik, 2019].
 | *Input:* asdf |
 | *Question:* asdf |
 
-Text needed
+Under construction
 {: .label .label-red }
 
 | JA rule | Complexity | References |
@@ -62,28 +62,28 @@ Text needed
 | Ranked agenda | P<sup>NP</sup>-complete / NP<sup>NP</sup>-complete | [Endriss, De Haan, 2015] |
 | Leximax | P<sup>NP</sup>-complete | [Endriss, De Haan, Lang, Slavkovik, 2019] |
 
-Todo: mention Horn/Krom results
-{: .label .label-red }
+<!--Todo: mention Horn/Krom results
+{: .label .label-red }-->
 
-Todo: mention DNNF results
-{: .label .label-red }
+<!--Todo: mention DNNF results
+{: .label .label-red }-->
 
-Todo: mention parameterized complexity results
-{: .label .label-red }
+<!--Todo: mention parameterized complexity results
+{: .label .label-red }-->
 
 ### Computational complexity of strategic behavior
 
-Text needed
+Under construction
 {: .label .label-red }
 
 ### Encoding into Answer Set Programming
 
-Text needed
+Under construction
 {: .label .label-red }
 
 ## Open questions
 
-Text needed
+Under construction
 {: .label .label-red }
 
 ## Publications

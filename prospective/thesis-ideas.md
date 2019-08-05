@@ -8,7 +8,15 @@ nav_order: 2
 # Thesis topics
 {: .no_toc }
 
-The following topics would be interesting for a thesis.
+Under construction
+{: .label .label-red }
+
+The following research ideas might be useful as a starting point for a
+bachelor's or a master's thesis&mdash;e.g., for students in the UvA's
+[Master of Logic](https://msclogic.illc.uva.nl/),
+[Bachelor of AI](https://www.uva.nl/programmas/bachelors/kunstmatige-intelligentie/kunstmatige-intelligentie.html)
+or [Master of AI](https://www.uva.nl/en/programmes/masters/artificial-intelligence/artificial-intelligence.html)
+programs.
 
 ---
 
@@ -22,8 +30,10 @@ The following topics would be interesting for a thesis.
 
 ## BSc thesis ideas
 
-asdf
+Under construction
+{: .label .label-red }
 
 ## MSc thesis ideas
 
-asdf
+Under construction
+{: .label .label-red }

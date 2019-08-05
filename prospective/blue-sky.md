@@ -8,8 +8,11 @@ nav_order: 3
 # Blue sky and ambitious research ideas
 {: .no_toc }
 
-Text needed
+Under construction
 {: .label .label-red }
+
+The following research ideas might be useful as a starting point for a dissertation,
+or to initiate larger-scale research programs.
 
 ---
 

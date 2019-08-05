@@ -9,8 +9,11 @@ permalink: /prospective
 # Prospective research projects
 {: .no_toc }
 
-Text needed
+Under construction
 {: .label .label-red }
+
+This section contains ideas and suggestions for future research
+that seem interesting to me.
 
 ---
 
@@ -24,21 +27,21 @@ Text needed
 
 ## Ideas for small research projects
 
-Text needed
+Under construction
 {: .label .label-red }
 
 - For more details, see [*Small research projects*](prospective/small-projects.html).
 
 ## Ideas for thesis topics
 
-Text needed
+Under construction
 {: .label .label-red }
 
 - For more details, see [*Thesis topics*](prospective/thesis-ideas.html).
 
 ## Blue sky ideas
 
-Text needed
+Under construction
 {: .label .label-red }
 
 - For more details, see [*Blue sky and ambitious ideas*](prospective/blue-sky.html).

@@ -33,21 +33,21 @@ send me an [email](mailto:me@ronalddehaan.eu)
 
 ## Research interests
 
-Text needed
+Under construction
 {: .label .label-red }
 
 - For more details, see [*Topics*](topics.html).
 
 ## Ongoing research projects
 
-Text needed
+Under construction
 {: .label .label-red }
 
 - For more details, see [*Ongoing projects*](current.html).
 
 ## Prospective research projects
 
-Text needed
+Under construction
 {: .label .label-red }
 
 - For more details, see [*Prospective projects*](prospective.html).

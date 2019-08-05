@@ -9,8 +9,13 @@ permalink: /current
 # Ongoing research projects
 {: .no_toc }
 
-Text needed
+Under construction
 {: .label .label-red }
+
+This section contains a description of several ongoing research projects
+that I have been conducting over the last few years&mdash;as well
+as a description of some of the main research outcomes obtained
+in these projects.
 
 ---
 
@@ -24,14 +29,14 @@ Text needed
 
 ## Complexity of judgment aggregation
 
-Text needed
+Under construction
 {: .label .label-red }
 
 - For more details, see [*Complexity of judgment aggregation*](current/complexity-ja.html).
 
 ## Parameterized complexity beyond NP
 
-Text needed
+Under construction
 {: .label .label-red }
 
 - For more details, see [*Parameterized complexity beyond NP*](current/pct-beyond-np.html).
