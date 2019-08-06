@@ -26,35 +26,11 @@ please feel free to
 send me an [email](mailto:me@ronalddehaan.eu)
 ([my PGP public key](https://staff.science.uva.nl/r.dehaan/files/ronald-AC7F3AB0.asc)).
 
-<!--
 ---
 
 #### Contents:
 {: .no_toc }
 
-1. TOC
-{: toc }
--->
-
----
-
-## Research interests
-
-Under construction
-{: .label .label-red }
-
-- For more details, see [*Research interests*](research-interests.html).
-
-## Ongoing research projects
-
-Under construction
-{: .label .label-red }
-
-- For more details, see [*Ongoing projects*](current.html).
-
-## Prospective research projects
-
-Under construction
-{: .label .label-red }
-
-- For more details, see [*Prospective projects*](prospective.html).
+- [*Research interests*](research-interests.html).
+- [*Ongoing projects*](current.html).
+- [*Prospective projects*](prospective.html).

@@ -159,7 +159,7 @@ For example, I'm interested in (computational aspects of) the following topics:
 {: .no_toc }
 
 - **[Arora, Barak, 2009]**
-S. Arora, and B. Barak. Computational complexity: A Modern Approach. Cambridge University Press, 2009.
+S. Arora, and B. Barak. *Computational complexity: A Modern Approach*. Cambridge University Press, 2009.
 
 - **[Brandt, Conitzer, Endriss, Lang, Procaccia, 2016]**
 F. Brandt, V. Conitzer, U. Endriss, J. Lang, and A.D. Procaccia, editors. *Handbook of computational social choice*. Cambridge University Press, 2016.

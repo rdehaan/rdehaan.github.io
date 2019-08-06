@@ -129,7 +129,7 @@ U. Endriss, R. de Haan, and S. Szeider, *Parameterized Complexity Results for Ag
 ## Other references
 
 - **[Endriss, 2016]**
-U. Endriss, *Judgment Aggregation*. In: F. Brandt, V. Conitzer, U. Endriss, J. Lang, and A. D. Procaccia, editors, *Handbook of Computational Social Choice*, Cambridge University Press, 2016.
+U. Endriss, *Judgment Aggregation*. In: F. Brandt, V. Conitzer, U. Endriss, J. Lang, and A.D. Procaccia, editors, *Handbook of Computational Social Choice*, Cambridge University Press, 2016.
 [(pdf)](https://staff.fnwi.uva.nl/u.endriss/pubs/files/EndrissHBCOMSOC2016.pdf)
 
 - **[Lang, Slavkovik, 2014]**
