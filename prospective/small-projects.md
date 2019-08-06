@@ -26,6 +26,7 @@ More coming
 
 ---
 
+<!--
 ### *Reading project:* Computational learning theory and machine learning
 
 **Description:**
@@ -46,6 +47,7 @@ machine learning settings and algorithms.
 - T. Mitchell. *Machine learning*. McGraw-Hill, 1997.
 
 ---
+-->
 
 ### *Reading project:* Algorithmic aspects of Dempster-Shafer Theory
 
