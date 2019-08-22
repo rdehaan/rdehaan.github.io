@@ -21,18 +21,32 @@ Under construction
 
 ---
 
+## Collaborators
+
+For this research project, I collaborated with the following people:
+- [Ulle Endriss](https://staff.science.uva.nl/u.endriss/)
+- [Umberto Grandi](https://www.irit.fr/~Umberto.Grandi/)
+- [J&eacute;r&ocirc;me Lang](https://www.lamsade.dauphine.fr/~lang/)
+- [Marija Slavkovik](http://slavkovik.com/)
+
 ## Background: judgment aggregation
 
-Under construction
-{: .label .label-red }
-
+Judgment aggregation is a mathematical framework to model
+voting scenarios on multiple yes/no issues, where not every combination
+of yes/no votes is allowed.
+The allowed combinations of votes are typically represented using
+a propositional logic formula, whose satisfying assignments are the
+votes/outcomes that are allowed.
+Various voting rules (or judgment aggregation rules) that can be used in
+such scenarios shave been studied in the literature.
 For more details on judgment aggregation,
-we refer to the literature (e.g., [Endriss, 2016]).
+consult the literature (e.g., [Endriss, 2016]).
 
 ## Research findings
 
-Under construction
-{: .label .label-red }
+We investigated various computational problems that come up in the setting
+of judgment aggregation, their computational complexity, and some algorithmic
+approaches that can be used to solve these problems.
 
 ### Computational complexity of outcome determination
 
@@ -42,13 +56,13 @@ variants of this definition [Endriss, De Haan, Lang, Slavkovik, 2019].
 
 | Outcome Determination for judgment aggregation rule *F*: |
 |:--|
-| *Input:* asdf |
-| *Question:* asdf |
+| *Input:* (1) A judgment aggregation scenario consisting of a set of issues and a sequence of (allowed) votes, (2) a (logic) constraint specifying which outcomes are allowed, and (3) a partial outcome. |
+| *Question:* Does the voting rule *F* in this scenario (with the given constraint on the outcomes) yield at least one outcome that agrees with the given partial outcome? |
 
-Under construction
-{: .label .label-red }
+For most judgment aggregation rules studied in the literature,
+this problem is computationally intractable in general.
 
-| JA rule | Complexity | References |
+| JA rule | Computational complexity | References |
 |:--|:--|:--|
 | Kemeny | P<sup>NP</sup>[log]-complete | [Endriss, Grandi, Porello, 2012] |
 | Slater | P<sup>NP</sup>[log]-complete | [Lang, Slavkovik, 2014] |
