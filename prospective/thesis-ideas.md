@@ -34,17 +34,34 @@ More coming
 
 ### Using DNNF circuits to compute winners for Kemeny and Slater voting
 
-Under construction
-{: .label .label-red }
-
 **Description:**
-asdf
+For the Kemeny and Slater voting rules, it is computationally expensive to determine
+the winner of an election.
+Using known results involving Boolean circuits in Decomposable Negation Normal Form (DNNF),
+we can compute the winner of such elections
+in time *O(2<sup>m</sup>)*, where *m* is the number of candidates in the election.
+We can do this as follows: (i) construct a DNNF circuit that encodes a linear order constraint
+on *m* candidates, (ii) use the approach of algebraic model counting to find weighted maximal
+models of this constraint, using appropriate weights to carry out the Kemeny and Slater
+voting rules.
+It would be interesting to see to what extent such an approach would scale for various
+types of election data from the [PrefLib library](http://www.preflib.org/).
+A recently developed Python [library](https://github.com/blyxxyz/python-nnf)
+for (D)NNF circuits can be used to investigate this.
 <br />
-**Objectives:**
-(1) asdf
+**Research questions:**
+(1) How well does this algorithmic approach work for determining the outcome
+of Kemeny and Slater elections on election data from PrefLib?
+(2) Can we modify/adapt this approach to work also for certain cases where *m* is too large?
 <br />
 **References:**
-- asdf
+- R. de Haan, *Expressing Linear Orders Requires Exponential-Size DNNFs*. Technical Report, arXiv:1807.06397, 2018.
+[(pdf)](https://arxiv.org/pdf/1807.06397.pdf)
+- R. de Haan, *Hunting for Tractable Languages for Judgment Aggregation*. In: Proceedings of the 16th International Conference on Principles of Knowledge Representation and Reasoning (KR 2018).
+[(pdf)](https://aaai.org/ocs/index.php/KR/KR18/paper/viewFile/18064/17143)
+- W.S. Zwicker, *Introduction to Theory of Voting*.
+In: F. Brandt, V. Conitzer, U. Endriss, J. Lang, and A.D. Procaccia, editors, Handbook of Computational Social Choice, Cambridge University Press, 2016.
+[(pdf)](http://www.cambridge.org/download_file/951600)
 
 ---
 
@@ -60,7 +77,7 @@ More coming
 **Description:**
 Modern [CDCL](https://en.wikipedia.org/wiki/Conflict-driven_clause_learning)-style
 search algorithms work amazingly well in many cases for
-[answer set programming](https://en.wikipedia.org/wiki/Answer_set_programming).
+[answer set programming (ASP)](https://en.wikipedia.org/wiki/Answer_set_programming).
 However, they don't come with worst-case performance guarantees.
 It would be interesting to find out whether there are classes of logic programs
 for which such algorithms can be proven to work in polynomial time in the worst case.
@@ -102,17 +119,18 @@ identify restricted settings for DEL reasoning that are computationally tractabl
 
 ### Developing a parameterized variant of PAC learning
 
-Under construction
-{: .label .label-red }
-
 **Description:**
-asdf
+The framework of [probably approximately correct (PAC) learning](https://en.wikipedia.org/wiki/Probably_approximately_correct_learning) is used in computational learning theory to mathematically analyse machine learning. This framework is based on the traditional notion of efficiency as polynomial-time computability. The area of [parameterized complexity theory](https://en.wikipedia.org/wiki/Parameterized_complexity) has developed a more fine-grained notion of efficiency (*fixed-parameter tractability*) that allows (structural) properties of problem inputs to be taken into account.
+It would be interesting to see whether it makes sense to integrate the notion of fixed-parameter tractability in the framework of PAC learning, and whether it provides a useful contribution to the mathematical foundations of machine learning.
 <br />
-**Objectives:**
-(1) asdf
+**Research questions:**
+(1) What needs to be adapted in the framework of PAC learning if we were to use the notion of fixed-parameter tractability instead of polynomial-time computability, and what consequences would this have for the foundational results in PAC learning?
+(2) Are there natural and interesting machine learning problems for which such an adapted framework of PAC learning provides a better analysis?
 <br />
 **References:**
-- asdf
+- R.G. Downey, and M.R. Fellows. *Fundamentals of Parameterized Complexity*. Springer, 2013.
+- J. Flum, and M. Grohe. *Parameterized Complexity Theory*. Springer, 2006.
+- M.J. Kearns, and U. Vazirani. *An Introduction to Computational Learning Theory*. MIT Press, 1994.
 
 <!--
 ### Computational complexity of Judgment Aggregation rules for different Boolean circuit classes

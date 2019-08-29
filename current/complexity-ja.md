@@ -42,6 +42,11 @@ such scenarios shave been studied in the literature.
 For more details on judgment aggregation,
 consult the literature (e.g., [Endriss, 2016]).
 
+The investigation of complex voting scenarios (that can be modelled, e.g., using
+the framework of judgment aggregation) is part of the field of *computational social
+choice*, which is related to the wider areas of *multi-agent systems*
+and *artificial intelligence*.
+
 ## Research findings
 
 We investigated various computational problems that come up in the setting
@@ -106,7 +111,8 @@ Under construction
 U. Endriss, R. de Haan, J. Lang, and M. Slavkovik, *The Complexity Landscape of Outcome Determination in Judgment Aggregation*. *(Unpublished manuscript)*
 
 - **[De Haan, Slavkovik, 2019]**
-R. de Haan, and M. Slavkovik, *Answer Set Programming for Judgment Aggregation*. In: Proceedings of the 28th International Joint Conference on Artificial Intelligence (IJCAI 2019). *(To appear)*
+R. de Haan, and M. Slavkovik, *Answer Set Programming for Judgment Aggregation*. In: Proceedings of the 28th International Joint Conference on Artificial Intelligence (IJCAI 2019).
+[(pdf)](https://www.ijcai.org/proceedings/2019/0231.pdf)
 
 - **[De Haan, 2018]**
 R. de Haan, *Expressing Linear Orders Requires Exponential-Size DNNFs*. Technical Report, arXiv:1807.06397, 2018.

@@ -21,6 +21,15 @@ Under construction
 
 ---
 
+## Collaborators
+
+For this research project, I collaborated with the following people:
+- [Ulle Endriss](https://staff.science.uva.nl/u.endriss/)
+- [Iyad Kanj](https://www.cdm.depaul.edu/Faculty-and-Staff/Pages/faculty-info.aspx?fid=272)
+- [Martin Kronegger](https://www.ac.tuwien.ac.at/people/kronegger/)
+- [Andreas Pfandler](https://www.dbai.tuwien.ac.at/staff/pfandler/)
+- [Stefan Szeider](http://szeider.net/)
+
 ## Background
 
 Under construction

@@ -90,6 +90,9 @@ knowledge compilation.
 
 ### Developing notions of instance complexity for cognitive science applications
 
+Challenging!
+{: .label .label-yellow }
+
 **Description:**
 In the area of [computational cognitive science](https://en.wikipedia.org/wiki/Computational_cognition),
 computational complexity arguments have been used to call for refinements of cognitive theories.
@@ -128,5 +131,5 @@ computational cognitive science.
 - I. van Rooij, M. Blokpoel, J. Kwisthout, and T. Wareham. *Intractability and Cognition: A guide to classical and parameterized complexity analysis*. Cambridge University Press, 2019.
 
 <!--
-### Searching for intensional representations of voting rules and social choice procedures
+### Using automated reasoning tools to search for intensional representations of voting rules
 -->
