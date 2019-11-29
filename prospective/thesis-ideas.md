@@ -132,6 +132,24 @@ It would be interesting to see whether it makes sense to integrate the notion of
 - J. Flum, and M. Grohe. *Parameterized Complexity Theory*. Springer, 2006.
 - M.J. Kearns, and U. Vazirani. *An Introduction to Computational Learning Theory*. MIT Press, 1994.
 
+---
+
+### Studying representation languages for set utility functions
+
+**Description:**
+In the area of [computational social choice](http://research.illc.uva.nl/COMSOC/what-is-comsoc.html), it is often useful and relevant to use utility functions <i>u : 2<sup>A</sup> &rarr;</i> &#8469; over a finite set <i>A</i> of items&mdash;for example, when studying [fair division of indivisible goods](https://en.wikipedia.org/wiki/Fair_item_allocation). Often, the assumption is made that an agent assigns some utility to each single item, and that the utility of a set of items is the sum of these individual utilities. Such utility functions are called [additive](https://en.wikipedia.org/wiki/Utility_functions_on_indivisible_goods#Additivity), and are simple to represent (by writing down a utility for each individual item). However, there are many natural examples where utility functions are not additive&mdash;think of the utility of a pair of socks, compared to the utility of a single sock, for example. One can think of various ways of expressing set utility functions. This project involves studying different representation languages for set utility functions and their computational properties.
+<br />
+**Research questions:**
+(1) What representation languages make sense to represent set utility functions? Which of these languages can express natural examples of set utility functions?
+(2) How do these different representation languages compare to each other in terms of expressivity and compactness?
+(3) What is the computational complexity of computing various operations (e.g., adding two set utility functions) and queries (e.g., computing the utility for a given set, finding a set with maximum utility) for the different representation languages?
+<br />
+**References:**
+- A. Darwiche, and P. Marquis. *A knowledge compilation map*. Journal of Artificial Intelligence Research 17, 2002.
+- S. Bouveret, Y. Chevaleyre, and N. Maudet, *Fair Allocation of Indivisible Goods*.
+In: F. Brandt, V. Conitzer, U. Endriss, J. Lang, and A.D. Procaccia, editors, Handbook of Computational Social Choice, Cambridge University Press, 2016.
+[(pdf)](http://www.cambridge.org/download_file/951600)
+
 <!--
 ### Computational complexity of Judgment Aggregation rules for different Boolean circuit classes
 ### ASP with meta-programming for NP<sup>NP</sup> problems
