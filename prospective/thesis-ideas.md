@@ -146,7 +146,7 @@ In the area of [computational social choice](http://research.illc.uva.nl/COMSOC/
 <br />
 **References:**
 - A. Darwiche, and P. Marquis. *A knowledge compilation map*. Journal of Artificial Intelligence Research 17, 2002.
-- S. Bouveret, Y. Chevaleyre, and N. Maudet, *Fair Allocation of Indivisible Goods*.
+- S. Bouveret, Y. Chevaleyre, and N. Maudet. *Fair Allocation of Indivisible Goods*.
 In: F. Brandt, V. Conitzer, U. Endriss, J. Lang, and A.D. Procaccia, editors, Handbook of Computational Social Choice, Cambridge University Press, 2016.
 [(pdf)](http://www.cambridge.org/download_file/951600)
 
