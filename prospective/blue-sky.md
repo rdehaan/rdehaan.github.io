@@ -151,9 +151,5 @@ answer set programming.
 **References:**
 - F. Brandt, V. Conitzer, U. Endriss, J. Lang, and A.D. Procaccia, editors, *Handbook of Computational Social Choice*, Cambridge University Press, 2016.
 [(pdf)](http://www.cambridge.org/download_file/951600)
-- M. Gebser, R. Kaminski, B. Kaufmann, and T. Schaub. *Answer Set Solving in Practice*, Morgan and Claypool, 2012.
+- M. Gebser, R. Kaminski, B. Kaufmann, and T. Schaub. *Answer Set Solving in Practice*, Morgan & Claypool Publishers, 2012.
 - C. Geist, and D. Peters. *Computer-Aided Methods for Social Choice Theory*. In: U. Endriss, editor, Trends in Computational Social Choice, AI Access, 2017. [(pdf)](http://research.illc.uva.nl/COST-IC1205/BookDocs/TrendsCOMSOC.pdf)
-
-<!--
-### Using automated reasoning tools to search for intensional representations of voting rules
--->
