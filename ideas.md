@@ -1,15 +1,15 @@
 ---
-title: Prospective projects
+title: Ideas for research projects
 has_children: true
-nav_order: 4
+nav_order: 2
 has_toc: false
-permalink: /prospective
+permalink: /ideas
 ---
 
-# Prospective research projects
+# Ideas for research projects
 {: .no_toc }
 
-This section contains ideas and suggestions for future research
+This section contains ideas and suggestions for research projects
 that seem interesting to me.
 
 ---

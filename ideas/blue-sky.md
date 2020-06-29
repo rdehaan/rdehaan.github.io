@@ -1,6 +1,6 @@
 ---
 title: Blue sky and ambitious ideas
-parent: Prospective projects
+parent: Ideas for research projects
 has_children: false
 nav_order: 3
 ---

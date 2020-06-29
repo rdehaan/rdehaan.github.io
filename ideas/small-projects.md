@@ -1,6 +1,6 @@
 ---
 title: Small research projects
-parent: Prospective projects
+parent: Ideas for research projects
 has_children: false
 nav_order: 1
 ---
