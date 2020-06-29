@@ -5,16 +5,15 @@ nav_order: 1
 has_toc: false
 ---
 
-# Ronald's research
+# Ronald's ideas for research projects
 {: .no_toc }
 
-I am [Ronald de Haan](https://staff.science.uva.nl/r.dehaan/).
+My name is [Ronald de Haan](https://staff.science.uva.nl/r.dehaan/).
 I am a researcher at the [Institute for Logic, Language and Computation (ILLC)](http://www.illc.uva.nl/)
 of the [University of Amsterdam (UvA)](https://www.uva.nl/en).
 This page describes some of my ideas for research projects.
 
-For more information on my teaching and other professional activities,
-my publications, etc,
+For more information on my teaching, publications, etc,
 please refer to my
 [webpage at the University of Amsterdam](https://staff.science.uva.nl/r.dehaan/).
 
