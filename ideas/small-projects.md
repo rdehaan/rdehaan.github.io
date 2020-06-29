@@ -26,29 +26,6 @@ More coming
 
 ---
 
-<!--
-### *Reading project:* Computational learning theory and machine learning
-
-**Description:**
-The field of [computational learning theory](https://en.wikipedia.org/wiki/Computational_learning_theory)
-studies the design and analysis of machine learning algorithms from a theoretical point of view.
-As there are various settings in which machine learning algorithms are used
-(e.g., supervised vs. unsupervised, presence of noise, etc), different theoretical notions
-of learnability have been proposed.
-This project involves studying the literature on computational learning theory and machine learning,
-and to get an overview of the different theoretical models and how they correspond to which
-machine learning settings and algorithms.
-<br />
-**Objectives:**
-(1) Get familiar with the theoretical foundations of machine learning.
-<br />
-**References:**
-- M. Kearns, and U. Vazirani. *An introduction to computational learning theory*. MIT press, 1994.
-- T. Mitchell. *Machine learning*. McGraw-Hill, 1997.
-
----
--->
-
 ### *Reading project:* Algorithmic aspects of Dempster-Shafer Theory
 
 **Description:**

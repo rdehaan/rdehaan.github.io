@@ -30,42 +30,11 @@ programs.
 More coming
 {: .label .label-green }
 
----
-
 <!--
-### Using DNNF circuits to compute winners for Kemeny and Slater voting
-
-**Description:**
-For the Kemeny and Slater voting rules, it is computationally expensive to determine
-the winner of an election.
-Using known results involving Boolean circuits in Decomposable Negation Normal Form (DNNF),
-we can compute the winner of such elections
-in time *O(2<sup>m</sup>)*, where *m* is the number of candidates in the election.
-We can do this as follows: (i) construct a DNNF circuit that encodes a linear order constraint
-on *m* candidates, (ii) use the approach of algebraic model counting to find weighted maximal
-models of this constraint, using appropriate weights to carry out the Kemeny and Slater
-voting rules.
-It would be interesting to see to what extent such an approach would scale for various
-types of election data from the [PrefLib library](http://www.preflib.org/).
-A recently developed Python [library](https://github.com/blyxxyz/python-nnf)
-for (D)NNF circuits can be used to investigate this.
-<br />
-**Research questions:**
-(1) How well does this algorithmic approach work for determining the outcome
-of Kemeny and Slater elections on election data from PrefLib?
-(2) Can we modify/adapt this approach to work also for certain cases where *m* is too large?
-<br />
-**References:**
-- R. de Haan, *Expressing Linear Orders Requires Exponential-Size DNNFs*. Technical Report, arXiv:1807.06397, 2018.
-[(pdf)](https://arxiv.org/pdf/1807.06397.pdf)
-- R. de Haan, *Hunting for Tractable Languages for Judgment Aggregation*. In: Proceedings of the 16th International Conference on Principles of Knowledge Representation and Reasoning (KR 2018).
-[(pdf)](https://aaai.org/ocs/index.php/KR/KR18/paper/viewFile/18064/17143)
-- W.S. Zwicker, *Introduction to Theory of Voting*.
-In: F. Brandt, V. Conitzer, U. Endriss, J. Lang, and A.D. Procaccia, editors, Handbook of Computational Social Choice, Cambridge University Press, 2016.
-[(pdf)](http://www.cambridge.org/download_file/951600)
+### 
+-->
 
 ---
--->
 
 ## MSc thesis ideas
 
@@ -133,26 +102,6 @@ It would be interesting to see whether it makes sense to integrate the notion of
 - R.G. Downey, and M.R. Fellows. *Fundamentals of Parameterized Complexity*. Springer, 2013.
 - J. Flum, and M. Grohe. *Parameterized Complexity Theory*. Springer, 2006.
 - M.J. Kearns, and U. Vazirani. *An Introduction to Computational Learning Theory*. MIT Press, 1994.
-
----
-
-<!--
-### Studying representation languages for set utility functions
-
-**Description:**
-In the area of [computational social choice](http://research.illc.uva.nl/COMSOC/what-is-comsoc.html), it is often useful and relevant to use utility functions <i>u : 2<sup>A</sup> &rarr;</i> &#8469; over a finite set <i>A</i> of items&mdash;for example, when studying [fair division of indivisible goods](https://en.wikipedia.org/wiki/Fair_item_allocation). Often, the assumption is made that an agent assigns some utility to each single item, and that the utility of a set of items is the sum of these individual utilities. Such utility functions are called [additive](https://en.wikipedia.org/wiki/Utility_functions_on_indivisible_goods#Additivity), and are simple to represent (by writing down a utility for each individual item). However, there are many natural examples where utility functions are not additive&mdash;think of the utility of a pair of socks, compared to the utility of a single sock, for example. One can think of various ways of expressing set utility functions. This project involves studying different representation languages for set utility functions and their computational properties.
-<br />
-**Research questions:**
-(1) What representation languages make sense to represent set utility functions? Which of these languages can express natural examples of set utility functions?
-(2) How do these different representation languages compare to each other in terms of expressivity and compactness?
-(3) What is the computational complexity of computing various operations (e.g., adding two set utility functions) and queries (e.g., computing the utility for a given set, finding a set with maximum utility) for the different representation languages?
-<br />
-**References:**
-- A. Darwiche, and P. Marquis. *A knowledge compilation map*. Journal of Artificial Intelligence Research 17, 2002.
-- S. Bouveret, Y. Chevaleyre, and N. Maudet. *Fair Allocation of Indivisible Goods*.
-In: F. Brandt, V. Conitzer, U. Endriss, J. Lang, and A.D. Procaccia, editors, Handbook of Computational Social Choice, Cambridge University Press, 2016.
-[(pdf)](http://www.cambridge.org/download_file/951600)
--->
 
 <!--
 ### Computational complexity of Judgment Aggregation rules for different Boolean circuit classes
