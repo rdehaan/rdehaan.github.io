@@ -30,3 +30,6 @@ send me an [email](mailto:me@ronalddehaan.eu)
 {: .no_toc }
 
 - [*Ideas for research projects*](./ideas).
+  - [*Small(er) projects*](ideas/small-projects.html).
+  - [*Thesis topics*](ideas/thesis-ideas.html).
+  - [*Blue sky and ambitious ideas*](ideas/blue-sky.html).
