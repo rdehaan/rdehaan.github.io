@@ -32,6 +32,7 @@ More coming
 
 ---
 
+<!--
 ### Using DNNF circuits to compute winners for Kemeny and Slater voting
 
 **Description:**
@@ -64,6 +65,7 @@ In: F. Brandt, V. Conitzer, U. Endriss, J. Lang, and A.D. Procaccia, editors, Ha
 [(pdf)](http://www.cambridge.org/download_file/951600)
 
 ---
+-->
 
 ## MSc thesis ideas
 
@@ -134,6 +136,7 @@ It would be interesting to see whether it makes sense to integrate the notion of
 
 ---
 
+<!--
 ### Studying representation languages for set utility functions
 
 **Description:**
@@ -149,6 +152,7 @@ In the area of [computational social choice](http://research.illc.uva.nl/COMSOC/
 - S. Bouveret, Y. Chevaleyre, and N. Maudet. *Fair Allocation of Indivisible Goods*.
 In: F. Brandt, V. Conitzer, U. Endriss, J. Lang, and A.D. Procaccia, editors, Handbook of Computational Social Choice, Cambridge University Press, 2016.
 [(pdf)](http://www.cambridge.org/download_file/951600)
+-->
 
 <!--
 ### Computational complexity of Judgment Aggregation rules for different Boolean circuit classes

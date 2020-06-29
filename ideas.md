@@ -9,7 +9,7 @@ permalink: /ideas
 # Ideas for research projects
 {: .no_toc }
 
-This section contains ideas and suggestions for research projects
+This section contains ideas for research projects
 that seem interesting to me.
 
 ---
@@ -17,6 +17,6 @@ that seem interesting to me.
 #### Contents:
 {: .no_toc }
 
-- [*Small research projects*](ideas/small-projects.html)
+- [*Small(er) projects*](ideas/small-projects.html)
 - [*Thesis topics*](ideas/thesis-ideas.html)
 - [*Blue sky and ambitious ideas*](ideas/blue-sky.html)

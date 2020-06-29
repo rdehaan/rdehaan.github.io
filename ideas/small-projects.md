@@ -1,15 +1,15 @@
 ---
-title: Small research projects
+title: Small(er) projects
 parent: Ideas for research projects
 has_children: false
 nav_order: 1
 ---
 
-# Ideas for small research projects
+# Ideas for smaller research projects
 {: .no_toc }
 
 The following research ideas might be useful as a starting point for a
-small research or reading project&mdash;e.g., for students of the UvA's
+small research project&mdash;e.g., for students of the UvA's
 [Master of Logic](https://msclogic.illc.uva.nl/) program looking to do an
 [individual project](https://msclogic.illc.uva.nl/current-students/courses/projects/).
 
@@ -63,7 +63,7 @@ of applying Dempster's rule of combination.
 **Objectives:**
 (1) Get familiar with Dempster-Shafer Theory and its relations to other frameworks such as probability theory.
 (2) Make an overview of the main algorithmic and complexity results in this area,
-as well as research opportunities related to this.
+as well as open research questions related to this.
 <br />
 **References:**
 - J. Halpern. *Reasoning about uncertainty*. MIT press, 2003.
