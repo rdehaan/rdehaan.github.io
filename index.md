@@ -11,8 +11,7 @@ has_toc: false
 I am [Ronald de Haan](https://staff.science.uva.nl/r.dehaan/).
 I am a researcher at the [Institute for Logic, Language and Computation (ILLC)](http://www.illc.uva.nl/)
 of the [University of Amsterdam (UvA)](https://www.uva.nl/en).
-This page describes my research interests,
-my ongoing research projects, and some of my ideas for future research projects.
+This page describes some of my ideas for research projects.
 
 For more information on my teaching and other professional activities,
 my publications, etc,
@@ -31,6 +30,4 @@ send me an [email](mailto:me@ronalddehaan.eu)
 #### Contents:
 {: .no_toc }
 
-- [*Research interests*](research-interests.html).
-- [*Ongoing projects*](current.html).
-- [*Prospective projects*](prospective.html).
+- [*Ideas for research projects*](ideas.html).

@@ -17,6 +17,6 @@ that seem interesting to me.
 #### Contents:
 {: .no_toc }
 
-- [*Small research projects*](prospective/small-projects.html)
-- [*Thesis topics*](prospective/thesis-ideas.html)
-- [*Blue sky and ambitious ideas*](prospective/blue-sky.html)
+- [*Small research projects*](ideas/small-projects.html)
+- [*Thesis topics*](ideas/thesis-ideas.html)
+- [*Blue sky and ambitious ideas*](ideas/blue-sky.html)
