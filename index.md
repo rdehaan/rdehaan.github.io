@@ -30,4 +30,4 @@ send me an [email](mailto:me@ronalddehaan.eu)
 #### Contents:
 {: .no_toc }
 
-- [*Ideas for research projects*](ideas.html).
+- [*Ideas for research projects*](./ideas).
