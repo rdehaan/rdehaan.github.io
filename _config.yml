@@ -3,7 +3,6 @@ remote_theme: pmarsceill/just-the-docs
 # color_scheme: "dark"
 
 # Site Settings
-title: &nbsp;
 email: me@ronalddehaan.eu
 
 # Enable/disable search
