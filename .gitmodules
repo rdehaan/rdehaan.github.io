@@ -1,0 +1,6 @@
+[submodule "solviz/example"]
+	path = solviz/example
+	url = https://github.com/rdehaan/solviz-example
+[submodule "solviz/sudoku"]
+	path = solviz/sudoku
+	url = https://github.com/rdehaan/solviz-sudoku
