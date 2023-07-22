@@ -7,3 +7,7 @@
 	url = https://github.com/rdehaan/solviz-sudoku
         branch = main
 
+[submodule "solviz/binary-puzzle"]
+	path = solviz/binary-puzzle
+	url = https://github.com/rdehaan/solviz-binary-puzzle
+	branch = main
