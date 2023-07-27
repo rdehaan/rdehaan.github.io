@@ -11,3 +11,7 @@
 	path = solviz/binary-puzzle
 	url = https://github.com/rdehaan/solviz-binary-puzzle
 	branch = main
+[submodule "tinysatviz/example"]
+	path = tinysatviz/example
+	url = https://github.com/rdehaan/tinysatviz-example
+	branch = main
