@@ -1,12 +1,11 @@
 [submodule "solviz/example"]
 	path = solviz/example
 	url = https://github.com/rdehaan/solviz-example
-        branch = main
+  branch = main
 [submodule "solviz/sudoku"]
 	path = solviz/sudoku
 	url = https://github.com/rdehaan/solviz-sudoku
-        branch = main
-
+  branch = main
 [submodule "solviz/binary-puzzle"]
 	path = solviz/binary-puzzle
 	url = https://github.com/rdehaan/solviz-binary-puzzle
@@ -14,4 +13,8 @@
 [submodule "tinysatviz/example"]
 	path = tinysatviz/example
 	url = https://github.com/rdehaan/tinysatviz-example
+	branch = main
+[submodule "algoviz/sudoku"]
+	path = algoviz/sudoku
+	url = https://github.com/rdehaan/algoviz-sudoku
 	branch = main
