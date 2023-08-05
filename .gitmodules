@@ -18,3 +18,7 @@
 	path = algoviz/sudoku
 	url = https://github.com/rdehaan/algoviz-sudoku
 	branch = main
+[submodule "tinysatviz/sudoku"]
+	path = tinysatviz/sudoku
+	url = https://github.com/rdehaan/tinysatviz-sudoku
+	branch = main
