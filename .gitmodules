@@ -22,3 +22,7 @@
 	path = tinysatviz/sudoku
 	url = https://github.com/rdehaan/tinysatviz-sudoku
 	branch = main
+[submodule "interactive-sat"]
+	path = interactive-sat
+	url = https://github.com/rdehaan/interactive-sat
+	branch = main
