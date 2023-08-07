@@ -26,3 +26,7 @@
 	path = interactive-sat
 	url = https://github.com/rdehaan/interactive-sat
 	branch = main
+[submodule "tinysatviz/clause-display"]
+	path = tinysatviz/clause-display
+	url = https://github.com/rdehaan/tinysatviz-clause-display
+	branch = main
