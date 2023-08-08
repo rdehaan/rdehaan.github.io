@@ -30,3 +30,7 @@
 	path = tinysatviz/clause-display
 	url = https://github.com/rdehaan/tinysatviz-clause-display
 	branch = main
+[submodule "how-computers-solve-sudoku"]
+	path = how-computers-solve-sudoku
+	url = https://github.com/rdehaan/computer-sudoku
+	branch = main
