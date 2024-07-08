@@ -34,3 +34,7 @@
 	path = how-computers-solve-sudoku
 	url = https://github.com/rdehaan/computer-sudoku
 	branch = main
+[submodule "gezzpun/sudoku"]
+	path = gezzpun/sudoku
+	url = https://github.com/rdehaan/gezzpun-sudoku
+	branch = main
