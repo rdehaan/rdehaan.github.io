@@ -1,5 +1,6 @@
 var ClingoModule = {};
 
+// Load some pre-stored programs
 var stored_programs = {}
 function save_stored_program(name, program) {
     stored_programs[name] = program;
@@ -17,14 +18,13 @@ function load_named_program(name, path) {
 }
 // load_named_program("heuristics", "stored/heuristics.lp")
 
-var output_elem = document.getElementById('output');
+// Infrastructure for clingo output
+var output_elem = document.getElementById('clingo-output');
 var output = "";
-
 function clearOutput() {
   output = "";
   updateOutput();
 }
-
 function addToOutput(text) {
   if (output == "") {
       output += text;
@@ -33,7 +33,6 @@ function addToOutput(text) {
   }
   updateOutput();
 }
-
 function updateOutput() {
   if (output_elem) {
     output_elem.textContent = output;
@@ -41,6 +40,29 @@ function updateOutput() {
   }
 }
 
+// Infrastructure for game output
+var game_output_elem = document.getElementById('game-output');
+var game_output = "";
+function clearGameOutput() {
+  game_output = "";
+  updateGameOutput();
+}
+function addToGameOutput(text) {
+  if (game_output == "") {
+      game_output += text;
+  } else {
+      game_output += "\n" + text;
+  }
+  updateGameOutput();
+}
+function updateGameOutput() {
+  if (game_output_elem) {
+    game_output_elem.textContent = game_output;
+    // outputElement.scrollTop = outputElement.scrollHeight; // focus on bottom
+  }
+}
+
+// Clingo solving
 function solve() {
 
   output = "";
@@ -58,8 +80,8 @@ function handleOutputLine(text) {
   updateOutput();
 }
 
+// Load clingo
 const version = '0.3.0';
-
 d3.require(`wasm-clingo@${version}`).then(Clingo => {
     const Module = {
         locateFile: (file) => `https://cdn.jsdelivr.net/npm/wasm-clingo@${version}/${file}`,
