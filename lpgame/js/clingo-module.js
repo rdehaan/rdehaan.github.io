@@ -66,7 +66,7 @@ function updateGameOutput() {
 function get_answer_set(program, options) {
   answer_set = null;
   ClingoModule.ccall('run', 'number', ['string', 'string'], [program, options])
-  return answer_set;
+  return answer_set.split(" ");
 }
 
 // Clingo solving
@@ -81,7 +81,7 @@ function solve() {
   if (solution) {
     addToGameOutput(solution);
   } else {
-    addToGameOutput("(none)");
+    addToGameOutput("(xnone)");
   }
 
   updateOutput();
@@ -95,7 +95,7 @@ function handleOutputLine(text) {
   if (next_line_will_be_answer_set) {
     answer_set = text;
   }
-  if (text.startsWith("SATISFIABLE")) {
+  if (text.startsWith("Answer:")) {
     next_line_will_be_answer_set = true;
   } else {
     next_line_will_be_answer_set = false;
