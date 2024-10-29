@@ -77,9 +77,11 @@ function solve() {
 
   options = "-n1 -Wnone";
   program = "a :- not b.\nb :- not a.\n"
-  answer_set = get_answer_set(program, options);
-  if (answer_set) {
-    addToGameOutput(answer_set);
+  solution = get_answer_set(program, options);
+  if (solution) {
+    addToGameOutput(solution);
+  } else {
+    addToGameOutput("(none)");
   }
 
   updateOutput();
