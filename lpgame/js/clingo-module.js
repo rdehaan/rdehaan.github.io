@@ -81,7 +81,7 @@ function solve() {
   if (solution) {
     addToGameOutput(solution);
   } else {
-    addToGameOutput("(xnone)");
+    addToGameOutput("(ynone)");
   }
 
   updateOutput();
