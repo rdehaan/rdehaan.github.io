@@ -95,7 +95,7 @@ function handleOutputLine(text) {
   if (next_line_will_be_answer_set) {
     answer_set = text;
   }
-  if (text == "SATISFIABLE") {
+  if (text.startsWith("SATISFIABLE")) {
     next_line_will_be_answer_set = true;
   } else {
     next_line_will_be_answer_set = false;
