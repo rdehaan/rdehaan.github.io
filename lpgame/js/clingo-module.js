@@ -61,7 +61,6 @@ function solve() {
 
 function handleOutputLine(text) {
   addToOutput(text);
-  updateOutput();
 }
 
 const version = '0.3.0';
@@ -78,7 +77,6 @@ d3.require(`wasm-clingo@${version}`).then(Clingo => {
         },
         setStatus: function(text) {
             addToOutput(text + "xx<br>");
-            updateOutput();
         },
         totalDependencies: 0,
         monitorRunDependencies: function(left) {
