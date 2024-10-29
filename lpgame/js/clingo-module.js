@@ -1,9 +1,3 @@
-// This file is released under the MIT license.
-// See LICENSE.md.
-//
-// The code in this file is taken (in modified form) from:
-// https://github.com/potassco/potassco.github.io
-
 var ClingoModule = {};
 
 var stored_programs = {}
@@ -43,7 +37,7 @@ function addToOutput(text) {
 function updateOutput() {
   if (output_elem) {
     output_elem.textContent = output;
-    outputElement.scrollTop = outputElement.scrollHeight; // focus on bottom
+    // outputElement.scrollTop = outputElement.scrollHeight; // focus on bottom
   }
 }
 
