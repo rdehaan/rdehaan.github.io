@@ -39,7 +39,7 @@
 	url = https://github.com/rdehaan/gezzpun-sudoku
 	branch = main
 [submodule "logic-game"]
-        path = logic-game
-        url = https://github.com/rdehaan/logic-game
+	path = logic-game
+	url = https://github.com/rdehaan/logic-game
         branch = main
 
