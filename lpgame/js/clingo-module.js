@@ -77,7 +77,8 @@ d3.require(`wasm-clingo@${version}`).then(Clingo => {
             console.error(err)
         },
         setStatus: function(text) {
-            output_elem.innerHTML += text + "<br>";
+            addToOutput(text + "<br>");
+            updateOutput();
         },
         totalDependencies: 0,
         monitorRunDependencies: function(left) {
@@ -96,7 +97,6 @@ d3.require(`wasm-clingo@${version}`).then(Clingo => {
 
     Clingo(Module).then(clingo => {
         ClingoModule = clingo;
-        document.getElementById("run").disabled = false;
     });
 
 });
