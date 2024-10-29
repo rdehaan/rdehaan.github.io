@@ -99,5 +99,3 @@ d3.require(`wasm-clingo@${version}`).then(Clingo => {
     });
 
 });
-
-handleOutputLine("")
