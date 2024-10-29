@@ -64,7 +64,7 @@ function updateGameOutput() {
 
 // Clingo solving (1)
 function get_answer_set(program, options) {
-  var answer_set = null;
+  answer_set = null;
   ClingoModule.ccall('run', 'number', ['string', 'string'], [program, options])
   return answer_set;
 }
