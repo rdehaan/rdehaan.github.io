@@ -62,20 +62,42 @@ function updateGameOutput() {
   }
 }
 
+// Clingo solving (1)
+function get_answer_set(program, options) {
+  var answer_set = null;
+  ClingoModule.ccall('run', 'number', ['string', 'string'], [program, options])
+  return answer_set;
+}
+
 // Clingo solving
 function solve() {
 
-  output = "";
+  clearOutput();
+  clearGameOutput();
 
   options = "-n1 -Wnone";
   program = "a :- not b.\nb :- not a.\n"
-  ClingoModule.ccall('run', 'number', ['string', 'string'], [program, options])
+  answer_set = get_answer_set(program, options);
+  if (answer_set) {
+    addToGameOutput(answer_set);
+  }
 
   updateOutput();
+  updateGameOutput();
   // document.getElementById("run").disabled = false;
 }
 
+var next_line_will_be_answer_set = false;
+var answer_set = null;
 function handleOutputLine(text) {
+  if (next_line_will_be_answer_set) {
+    answer_set = text;
+  }
+  if (text == "SATISFIABLE") {
+    next_line_will_be_answer_set = true;
+  } else {
+    next_line_will_be_answer_set = false;
+  }
   addToOutput(text);
   updateOutput();
 }

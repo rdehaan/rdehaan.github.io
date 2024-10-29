@@ -1,6 +1,8 @@
+// Variables for generated level
 var level_state = "";
 var level_settings = "";
 
+// Loading games from file
 function load_game() {
   load_game_from_path(example_games.value);
   load_status.innerText = "Loading successful.."
@@ -29,6 +31,7 @@ file_input = document.getElementById('file_input');
 upload_status = document.getElementById('upload_status');
 example_games = document.getElementById('example_games');
 
+// Refreshing after changing tabs
 function change_tabs() {
   level_gen_program.resize();
   visibility_program.resize();
@@ -40,6 +43,7 @@ function change_tabs() {
   load_status.innerText = ""
 }
 
+// Loading games from upload
 async function load_game_from_file(event) {
   const file = event.target.files.item(0)
   const text = await file.text();
@@ -53,6 +57,7 @@ async function load_game_from_file(event) {
   upload_status.innerText = "Loading successful.."
 }
 
+// Downloading game currently in memory
 function download_game() {
   var game = {}
   game['level_gen_program'] = level_gen_program.getValue();
@@ -66,7 +71,6 @@ function download_game() {
   var text = JSON.stringify(game, null, 2);
   save('game.json', text)
 }
-
 function save(filename, data) {
     const blob = new Blob([data], {type: 'text/csv'});
     if(window.navigator.msSaveOrOpenBlob) {
