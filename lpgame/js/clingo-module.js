@@ -77,7 +77,7 @@ d3.require(`wasm-clingo@${version}`).then(Clingo => {
             console.error(err)
         },
         setStatus: function(text) {
-            addToOutput(text + "<br>");
+            addToOutput(text + "xx<br>");
             updateOutput();
         },
         totalDependencies: 0,
