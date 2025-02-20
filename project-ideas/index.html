@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- Taken in modified form from https://potassco.org/clingo/run/ -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Student project ideas</title>
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <article class="post">
+
+        <header class="post-header">
+          <h1 class="post-title">Student project ideas</h1>
+        </header>
+
+        <div class="post-content">
+          <div class="center">
+
+            <p>Below are several ideas that can form the starting point for a student research project that I would be happy (and capable) to supervise. These ideas all have a reasonably concrete research question as starting point, and they are (likely) feasible to carry out.</p>
+
+            <p>These projects are suitable for, for example, an small research project or a thesis project (in the context of the <a href="https://msclogic.illc.uva.nl/">MSc Logic</a> or the <a href="https://www.uva.nl/shared-content/programmas/en/masters/artificial-intelligence/artificial-intelligence.html">MSc Artificial Intelligence</a> at the <a href="https://www.uva.nl/">UvA</a>).</p>
+
+            <p>Please <a href="mailto:me@ronalddehaan.eu">get in touch</a> with me (<a href="https://staff.science.uva.nl/r.dehaan/">Ronald de Haan</a>) if you are interested in any of these projects, or if you have questions about any of them.</p>
+
+            <p>&nbsp;</p>
+
+            <h3>1. Developing a reasoning algorithm for BSML</h3>
+            <a name="bsml-reasoning"></a>
+
+            <p><a href="https://arxiv.org/pdf/2305.11777">Bilateral state-based modal logic (BSML)</a> is a modal logic that has been used, for example, in <a href="https://semprag.org/index.php/sp/article/view/sp.15.5">recent work</a> by colleagues on pragmatics.</p>
+
+            <p>I have built a (rough) <a href="https://github.com/rdehaan/bsml-sat/blob/main/demo.ipynb">prototype</a> for a reasoning algorithm for BSML that is based on answer set programming. This prototype can reason about small formulas in a reasonable amount of time. In terms of how well this algorithm (and variants of it) scales to larger formulas, much remains to be explored.</p>
+
+            <p>There are a lot of directions for improving this reasoner, and many of them are very much suitable for a small research project or a thesis. For some suggestions for research directions, see <a href="https://github.com/rdehaan/bsml-sat/blob/main/demo.ipynb">the demonstration</a> of the prototype.</p>
+
+            <ul>
+              <li>The project requires a solid understanding of answer set programming. Students that have taken the course <i>Knowledge Representation and Reasoning</i> at the UvA are well-prepared for this.</li>
+              <li>The project also requires a basic understanding of modal logic.</li>
+              <li>The project is algorithmic in nature, and involves some programming in Python.</li>
+            </ul>
+
+            <!-- <h3>2. Testing a declarative method to specify CEGAR-algorithms</h3>
+            <a name="declarative-cegar"></a> -->
+
+            <p>&nbsp;</p>
+
+            <h3>2. Arbitrary propositional formulas under answer set semantics</h3>
+            <a name="answer-set-semantics"></a>
+
+            <p>Disjunctive answer set programming (dASP) is expressive enough to model search problems at the second level of the Polynomial Hierarchy (PH). Intuitively, these problems can be expressed using an "&exist;&forall;"-quantified statement. However, expressing such problems in dASP typically leads to unnatural (and unreadable) encodings.</p>
+
+            <p>Answer set (or stable model) semantics has also been <a href="https://link.springer.com/article/10.1007/s10472-006-9028-z">defined for arbitrary (propositional) logic formulas</a>&mdash;instead of just for disjunctive logic programs, that can be seen as conjunctions of implications of a particular form. In terms of expressive power and succinctness, disjunctive logic programs and general propositional formulas are equivalent under answer set semantics.</p>
+
+            <p>This research project involves studying to what extent expressing natural search problems at the second level of the PH using general propositional formulas (under answer set semantics) leads to easier-to-understand and more natural encodings.</p>
+
+            <p>Optionally, the project can also include developing (ASP-based) algorithms for general propositional formulas under answer set semantics, and studying whether problems can be solved (more) efficiently using the developed problem encodings.</p>
+
+            <ul>
+              <li>This project requires a solid understanding of answer set programming. Students that have taken the course <i>Knowledge Representation and Reasoning</i> at the UvA are well-prepared for this.</li>
+              <li>This project also requires a basic understanding of computaitonal complexity theory. Students that have taken the course <i>Computational Complexity</i> at the UvA are well-prepared for this.</li></li>
+              <li>This project is mostly theoretical in nature, and affinity with logic is recommended.</li>
+              <li>This project can also have an algorithmic aspect, which would involve some programming in Python.</li>
+            </ul>
+
+          </div>
+        </div>
+
+      </article>
+    </div>
+  </main>
+
+</body>
+
+</html>
