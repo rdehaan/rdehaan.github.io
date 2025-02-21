@@ -48,12 +48,27 @@
               <li>The project is algorithmic in nature, and involves some programming in Python.</li>
             </ul>
 
-            <!-- <h3>2. Testing a declarative method to specify CEGAR-algorithms</h3>
-            <a name="declarative-cegar"></a> -->
+            <p>&nbsp;</p>
+
+            <h3>2. Testing a declarative method to specify CEGAR-algorithms</h3>
+            <a name="declarative-cegar"></a>
+
+            <p>Counterexample-guided Abstraction Refinement (CEGAR) algorithms often provide a productive method for solving problems at higher levels of the Polynomial Hierarchy (PH). In the context of SAT solving or answer set solving (for problems at the second level of the PH), this type of algorithm typically looks as follows. One solver is given an encoding of candidate solutions to the problem (the <i>abstraction</i>), and it starts the search process and iterates over candidate solutions. There is a second solver that is running, which is given an encoding that expresses what counterexamples for candidate solutions should satisfy. Each candidate solution produced by the first solver is given to the second solver, in the form of assumptions. If the second solver does not find a counterexample, the candidate solution is returned as an actual solution. If the second solver does find a counterexample, this counterexample is used to produce a new constraint (the <i>refinement</i>) that is added to the first solver, and the first solver's search process continues.</p>
+
+            <p>The encodings given to the first and second solver in this architecture are typically specified declaratively, using propositional logic or logic programs. The way in which refinements are produced from counterexamples are mostly given in a procedural way&mdash;e.g., in the form of a subalgorithm that produces a constraint from a counterexample. If these refinements were also specified declaratively&mdash;e.g., by just stating the properties that define them&mdash;the entire algorithm specification could be more readable and easier to modify.</p>
+
+            <p>This research project involves studying to what extent solving search problems at the second level of the PH by declaratively specified CEGAR-style algorithms leads to more readable (and more easily adaptable) encodings, while not giving up too much in terms of algorithmic efficiency.</p>
+
+            <p>There is a <a href="https://github.com/rdehaan/declarative-cegar/">prototype system</a> available, based on answer set programming, that can be used as a starting point.</p>
+
+            <ul>
+              <li>This project requires a solid understanding of answer set programming. Students that have taken the course <i>Knowledge Representation and Reasoning</i> at the UvA are well prepared for this.</li>
+              <li>The project is algorithmic in nature, and involves some programming in Python.</li>
+            </ul>
 
             <p>&nbsp;</p>
 
-            <h3>2. Arbitrary propositional formulas under answer set semantics</h3>
+            <h3>3. Arbitrary propositional formulas under answer set semantics</h3>
             <a name="answer-set-semantics"></a>
 
             <p>Disjunctive answer set programming (dASP) is expressive enough to model search problems at the second level of the Polynomial Hierarchy (PH). Intuitively, these problems can be expressed using an "&exist;&forall;"-quantified statement. However, expressing such problems in dASP typically leads to unnatural (and unreadable) encodings.</p>
@@ -66,7 +81,7 @@
 
             <ul>
               <li>This project requires a solid understanding of answer set programming. Students that have taken the course <i>Knowledge Representation and Reasoning</i> at the UvA are well prepared for this.</li>
-              <li>This project also requires a basic understanding of computaitonal complexity theory. Students that have taken the course <i>Computational Complexity</i> at the UvA are well prepared for this.</li></li>
+              <li>This project also requires a basic understanding of computaitonal complexity theory. Students that have taken the course <i>Computational Complexity</i> at the UvA are well prepared for this.</li>
               <li>This project is mostly theoretical in nature, and affinity with logic is recommended.</li>
               <li>This project can also have an algorithmic aspect, which would involve some programming in Python.</li>
             </ul>
