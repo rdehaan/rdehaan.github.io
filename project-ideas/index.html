@@ -81,9 +81,41 @@
 
             <ul>
               <li>This project requires a solid understanding of answer set programming. Students that have taken the course <i>Knowledge Representation and Reasoning</i> at the UvA are well prepared for this.</li>
-              <li>This project also requires a basic understanding of computaitonal complexity theory. Students that have taken the course <i>Computational Complexity</i> at the UvA are well prepared for this.</li>
+              <li>This project also requires a basic understanding of computational complexity theory. Students that have taken the course <i>Computational Complexity</i> at the UvA are well prepared for this.</li>
               <li>This project is mostly theoretical in nature, and affinity with logic is recommended.</li>
               <li>This project can also have an algorithmic aspect, which would involve some programming in Python.</li>
+            </ul>
+
+            <h3>4. What is needed for a productive completeness theory?</h3>
+            <a name="productive-completeness-theory"></a>
+
+            <p>Most settings in which the theory of computational complexity has been used share certain elements. Think, for example, of the framework of NP-completeness. There is a domain of problems (in the example, NP problems), among which there are some efficiently solvable problems, for some notion of efficiency (e.g., the P problems). There is a notion of reductions between problems that is transitive and such that the efficiently solvable problems are closed under these reductions (e.g., polynomial-time many-one reductions). Moreover, the reductions are not so strong that everything in the entire domain is reducable to the efficiently solvable problems (e.g., not everything is trivially reducible to a P problem). There is also typically a natural and useful problem that is complete under the notion of reductions for the entire domain of problems (e.g., SAT is NP-complete). The working hypothesis is that the entire domain of problems is not efficiently solvable (e.g., P &neq; NP), from which it follows that complete problems are not efficiently solvable.</p>
+
+            <p>The following are examples of frameworks where these elements appear (naming only the domain; the efficiently solvable problems; the notion of reduction; and a natural complete problem):</p>
+            <ul>
+              <li>NP, P, polynomial-time Turing reductions, SAT;</li>
+              <li>NP, P, logspace many-one reductions, SAT;</li>
+              <li>NL, L, logspace many-one reductions, graph reachability;</li>
+              <li>PSPACE, P, polynomial-time many-one reductions, TQBF;</li>
+              <li>nucomp-NP, comp-P, nucomp-reductions, &epsilon;-SAT&mdash;see, e.g., <a href="https://www.sciencedirect.com/science/article/pii/S0890540101930433">Cadoli, Donini, Liberatore, Schaerf (2002)</a>;</li>
+              <li>computably enumerable sets, computable sets, m-reductions, the diagonal Halting probem;</li>
+              <li>PLS, FP, PLS-reductions, Max-Cut/Flip;</li>
+              <li>EPT, SUBEPT, serf-reductions, k-SAT;</li>
+              <li>#P, FP, poly-time parsimonious reductions, #SAT;</li>
+              <li>Learning problems (where solutions can be evaluated efficiently), PAC-learnable problems, PAC-reductions, learning 3DNF formulas;</li>
+              <li>W[1], FPT, fpt-reductions, k-Clique;</li>
+              <li>Chopped-W[1], fpt-comp-FPT, fpt-comp-reductions, Clique-Completion&mdash;see, e.g., <a href="https://eprints.illc.uva.nl/id/eprint/2210/1/MoL-2022-11.text.pdf">Arteche (2022)</a>;</li>
+            </ul>
+
+            <p>Most (but not all) of these settings are remarkably effective, in the sense that they provide a way of classifying for nearly all problems that fit the setting whether or not they fall in the efficiently problems (under the assumption that not all problems in the domain are efficiently solvable, i.e., by showing that the problems are either efficiently solvable or complete for the domain). It is not a priori clear why these frameworks should be so effective.</p>
+
+            <p>Moreover, some of these frameworks lead to a multitude of complete problems, whereas other frameworks only have very few (carefully phrased) complete problems.</p>
+
+            <p>The aim of this project is to provide a starting point for getting a theoretical handle on why these frameworks are so effective, and why some frameworks give more (natural) complete problems than others. The main method for providing such a starting point is to develop a general, high-level, conceptual meta-framework in which all these frameworks can be expressed, and in which one can investigate the similarities and differences between these frameworks.
+
+            <ul>
+              <li>This project requires a solid understanding of computational complexity theory. Students that have taken the course <i>Computational Complexity</i> at the UvA are well prepared for this.</li>
+              <li>This project is mostly theoretical in nature, and affinity with logic is recommended.</li>
             </ul>
 
           </div>
